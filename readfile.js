@@ -5,5 +5,5 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
     console.error(err);
     return;
   }
-  console.log('File Content:', data);
+  console.log('File Content:::::', data);
 });
